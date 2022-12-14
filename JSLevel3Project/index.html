@@ -7,45 +7,103 @@
     <title>Document</title>
     <style>
            table {
-            border: 20px solid darkred;
+            border: 25px solid lightblue;
             border-collapse: collapse;
-            
         }
 
-        th,
-        td {
-            border: thin solid black;
+        th {
             padding: 8px;
-            
+        }
+
+        td{
+            width: 150px;
+            height: 50px;
+            background-color: purple;
+            border: 5px solid azure;
+            color: white;
+            text-align: center;
+            font-weight: 800;
+            font-size: 25px;      
+        }
+        #empty
+        {
+            background-color: azure;
+            margin: 8px;
+        }
+        button{
+            margin: 8px;
+            padding: 10px;
+            background-color: lightblue;
+            border: 5px solid purple;
+            color: purple;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        div{
+            font-size: 30px;
+            font-weight: bold;
+            padding: 8px;
+            color: purple;
+        }
+        #one{
+            background-color:rgb(247, 212, 247);
+        }
+        #two {
+            background-color:plum;
+        }
+        #three
+        {
+            background-color:rgb(219, 138, 219);
+        }
+        #four
+        {
+            background-color:rgb(219, 116, 219);
+        }
+        #five
+        {
+            background-color:rgb(224, 96, 224);
         }
     </style>
+    <script>
+        function initialize()
+        {
+            
+        }
+        function moveTile(pos, newpos)
+        {
+            
+        }
+    </script>
 </head>
 <body>
     <table id="table">
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id = one>1</td>
+            <td id = two>2</td>
+            <td id = three>3</td>
+            <td id = four>4</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id = five>5</td>
+            <td id = six>6</td>
+            <td id = seven>7</td>
+            <td id = eight>8</td> 
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id = nine>9</td>
+            <td id = ten>10</td>
+            <td id = eleven>11</td>
+            <td id = twelve>12</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id = thirteen>13</td>
+            <td id = fourteen>14</td>
+            <td id = fifteen>15</td>
+            <td id = 'empty'></td>
         </tr>
     </table>
+    <button>Restart</button>
+    <button>Start</button>
+    <div>Moves: <span>0</span></div>
 </body>
 </html>
