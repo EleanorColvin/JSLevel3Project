@@ -7,6 +7,7 @@ function initialize() {
     reset = false;
     solved = false;
     document.getElementById("shufflebtn").style.visibility = "hidden";
+    document.getElementById("solvedMessage").innerHTML = "Unsolved";
 }
 function isReset() {
     reset = true;
