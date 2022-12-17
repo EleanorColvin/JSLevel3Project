@@ -71,6 +71,7 @@ function shuffle()
         tile(randRow, randCol);
     }
     reset = false;
+    document.getElementById("solvedMessage").innerHTML = "Unsolved";
 }
 
 function checkIfSolved()
